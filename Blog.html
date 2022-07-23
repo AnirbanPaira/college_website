@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Palette+Mosaic&family=Poppins:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    referrerpolicy="no-referrer" />  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+          <ul>
+            <i class="fas fa-home"></i>
+            <li><a href="">HOME</a></li>
+            <i class="fas fa-address-card"></i>
+            <li><a href="">ABOUT</a></li>
+            <i class="fas fa-book"></i>
+            <li><a href="">COURSE</a></li>
+            <i class="fab fa-blogger-b"></i>
+            <li><a href="">BLOG</a></li>
+            <i class="fas fa-phone-alt"></i>
+            <li><a href="">CONTACT</a></li>
+            <input type="text" placeholder="Search..">
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"> </i>
+      </nav>
+      <div class="text-box">
+        <h1>Our Cerificate And Online Programs For 2021</h1>
+        <p>
+          Making Website is one of the things, I love doing it. You just need to
+          learn HTML, CSS and JavaScript<br> and you are good to go.
+         
+          <hr class="scale">
+          <!-- <button type="hero-button">visit us to know more</button> -->
+            <a href="" class="hero-btn">visit Us To Know More</a>
+            <!-- -------- blog page content ------- -->
+            <section class="blog-content">
+              <div class="row">
+                <div class="blog-left">
+                  <img src="./images/certificate.jpg">
+                  <h2> Our Cerificate And Online Programs For 2021 </h2>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate voluptatibus ullam esse magni dolor. Repellendus, magni consequuntur. Eum quam minus provident ullam repellendus nemo odit itaque totam quos, voluptas aperiam? Libero nihil cum tempora?</p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel quae ad voluptas assumenda recusandae minima voluptatum sequi iure, corporis quos aspernatur? Minima rerum magni laudantium accusamus impedit quia, distinctio recusandae temporibus ad at veniam nam quos nesciunt. Sunt illo aliquid est? Ipsum deleniti maiores dicta.
+                  </p><br>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi reprehenderit deserunt deleniti ullam aspernatur expedita ea rerum officiis esse. Laboriosam veniam, aut, aliquam aperiam maxime vitae blanditiis soluta consectetur magnam officia ab iste. Consectetur deserunt voluptatum ut vel dolorem, a eius quam corrupti fugit dicta doloribus sint ducimus placeat exercitationem ipsum, aperiam veritatis debitis reprehenderit.</p><br>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic aliquam dolor distinctio dolorum unde voluptates porro pariatur sint? Ut eius modi illo asperiores recusandae, voluptates optio non iste aliquam porro quidem cum.</p><br>
+                </div>
+                <div class="comment-box">
+                  <h3>
+                    leave a comment
+                  </h3>
+                  <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="your comment"></textarea>
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                  </form>
+                </div>
+                  <div class="blog-right">
+                  <h3>
+                    post Categories
+                  </h3>
+                 <div>
+                   <span>Business Analytics</span>
+                    <span>21</span>
+                 </div>
+                 <div>
+                  <span>Data Science</span>
+                   <span>28</span>
+                </div>
+                </div>
+              </div>
+
+            </section>
+        </p>
+      </div>
+     </section>
+     <!-- -------course----------- -->
+    
+     <!-- ---------campus-------- -->
+    
+     <!-- --------facilities-------- -->
+    
+     
+     <!-- --------Testimonials------------ -->
+       
+
+       <!-- ------call To Action ------ -->
+       
+        <!-- ------footer ------ -->
+        <section class="footer">
+          <h4>
+           About US
+          </h4>
+          <p>Lorem, ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas? adipisicing.<br>Lorem ipsum dolor sit Lorem ipsum dolor sit amet.
+          </p>
+          <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+          </div>
+          <p>Made With <i class="fas fa-heart"></i> by @anirban_Paira</p>
+        </section>
+     <!-- -------java Script for Toggle menu------- -->
+     <script>
+       var navLinks = document.getElementById("navLinks");
+       function showMenu(){
+         navLinks.style.right = "0";
+       }
+       function hideMenu(){
+         navLinks.style.right = "-200px";
+       }
+     </script>
+  </body>
+</html>
